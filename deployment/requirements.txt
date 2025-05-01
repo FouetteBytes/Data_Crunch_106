@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pandas
+scikit-learn
+joblib
+numpy
+apscheduler
+optuna
+filelock
+xgboost
+pytz

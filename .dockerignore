@@ -1,0 +1,39 @@
+# Docker files
+Dockerfile
+.dockerignore
+
+# Git files
+.git/
+.gitignore
+
+# Python virtual environment
+venv/
+*.venv
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS generated files
+*.~
+*.swp
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Environment variables file (if you use one)
+.env
+
+# Log files (if generated)
+*.log
+
+# Optuna storage (if using file storage like sqlite)
+*.db
+
+# Add any other large files or folders you don't need inside the final container
+# For example, large raw datasets if they are not needed by the running API

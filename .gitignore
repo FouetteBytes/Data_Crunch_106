@@ -1,0 +1,11 @@
+venv
+.venv
+venv\
+
+train_catboost.py
+train_lgbm.py
+model.py
+train_xgboost.py
+eda_plots.py
+
+__pycache__
