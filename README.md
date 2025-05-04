@@ -46,7 +46,7 @@ The core task is to predict weekly fresh prices across various economic centers,
 ## Project Structure (Submission Format)
 
 ```
-/Data_Crunch_106  
+/time-series-forecasting
 │
 ├── deployment/                     # Core application and build files
 │   ├── Dockerfile                  # Instructions to build the Docker image
@@ -83,7 +83,7 @@ The core task is to predict weekly fresh prices across various economic centers,
 
 *Note: Local development runs `main.py` directly. The primary method for evaluation is intended to be via the provided Docker image.*
 
-1.  **Clone:** `git clone https://github.com/FouetteBytes/Data_Crunch_106.git && cd Data_Crunch_106`
+1.  **Clone:** `git clone https://github.com/FouetteBytes/time-series-forecasting.git && cd time-series-forecasting`
 2.  **Venv:** `python -m venv venv && .\venv\Scripts\activate` (Win) or `source venv/bin/activate` (Mac/Linux)
 3.  **Install:** `pip install -r deployment/requirements.txt` (Install from the requirements inside deployment)
 4.  **Models:** Ensure the `saved_models_xgb` directory containing pre-trained `.joblib` files exists in the project root. 
